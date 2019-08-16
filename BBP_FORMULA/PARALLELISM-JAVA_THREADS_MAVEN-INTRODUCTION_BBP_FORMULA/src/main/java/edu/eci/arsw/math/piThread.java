@@ -19,4 +19,8 @@ public class piThread extends Thread{
 	public void run() {
 		calcular();
 	}
+	
+	public byte[] getRta() {
+		return rta;
+	}
 }
