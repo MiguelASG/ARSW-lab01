@@ -112,40 +112,42 @@ public class PiDigits {
     }
     
     public static byte[] getDigits(int start, int count, int n) throws InterruptedException {
-    	 byte[] digits = new byte[count];
+    	 byte[] digits = new byte[0];
     	 int counttemp = (int) (count-start)/n;
     	 int fin = start+counttemp;
     	 ArrayList<piThread> hilo = new ArrayList<piThread>();
     	 for(int i=0; i<n; i++) {
-    		 hilo.add(new piThread(start,fin));
+    		 //System.out.println(start);
+    		 //System.out.println(fin);
+    		 //System.out.println("counttemp");
+    		 //System.out.println(counttemp);
+    		 hilo.add(new piThread(start,counttemp));
     		 start = fin;
-    		 if(i+1==n) {
-    			 fin = count;
+    		 if(i+2==n) {
+    			 //System.out.println("entre");
+    			 counttemp = count-start;
     		 }
     		 else {
     			 fin = fin+counttemp;
     		 }
     	 }
     	 
-    	 for(int i=0; i<n; i++) {
+    	 
+    	 for(int i=0; i<hilo.size(); i++) {
     		 hilo.get(i).start();
     	 }
     	 
-    	 for(int i=0; i<n; i++) {
+    	 for(int i=0; i<hilo.size(); i++) {
     		 hilo.get(i).join();
     	 }
     	 
-    	 for(int i=0; i<n; i++) {
-    		 if(i==0) {
-    			 digits = hilo.get(i).getRta();
-    		 }
-    		 else {
-    			 byte[] temp1 = hilo.get(i).getRta();
-    			 byte[] temp = new byte[digits.length+temp1.length];
-    			 System.arraycopy(digits, 0, temp, 0, digits.length);
-    			 System.arraycopy(temp1, 0, temp, digits.length, temp1.length);
-    			 digits = temp;
-    		 }
+    	 for(int i=0; i<hilo.size(); i++) {
+			 byte[] temp1 = hilo.get(i).getRta();
+			 byte[] temp = new byte[digits.length+temp1.length];
+			 System.arraycopy(digits, 0, temp, 0, digits.length);
+			 System.arraycopy(temp1, 0, temp, digits.length, temp1.length);
+			 digits = new byte[temp.length];
+			 digits = temp;
     	 }
     	 
     	 return digits;    	
