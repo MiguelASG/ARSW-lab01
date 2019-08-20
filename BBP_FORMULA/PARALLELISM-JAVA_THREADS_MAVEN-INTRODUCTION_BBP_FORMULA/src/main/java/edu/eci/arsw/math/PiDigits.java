@@ -117,14 +117,9 @@ public class PiDigits {
     	 int fin = start+counttemp;
     	 ArrayList<piThread> hilo = new ArrayList<piThread>();
     	 for(int i=0; i<n; i++) {
-    		 //System.out.println(start);
-    		 //System.out.println(fin);
-    		 //System.out.println("counttemp");
-    		 //System.out.println(counttemp);
     		 hilo.add(new piThread(start,counttemp));
     		 start = fin;
     		 if(i+2==n) {
-    			 //System.out.println("entre");
     			 counttemp = count-start;
     		 }
     		 else {

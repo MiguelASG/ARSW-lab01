@@ -48,5 +48,23 @@ public class PiCalcTest {
             }
         }
     }
+    
+    @Test
+    public void piThreadTest() throws Exception{
+    	try {
+	    	byte [] primero = PiDigits.getDigits(1, 10000);
+	    	byte [] hilo1 = PiDigits.getDigits(1, 10000, 1);
+	    	byte [] hilo2 = PiDigits.getDigits(1, 10000, 2);
+	    	byte [] hilo3 = PiDigits.getDigits(1, 10000, 3);
+	    	assertEquals(primero,hilo1);
+	    	assertEqualse(primero,hilo2);
+	    	assertEqualse(primero,hilo3);
+    	}catch(Exception e) {
+    		e.printStackTrace();
+    		assertTrue(false);
+    	}
+    	
+    	
+    }
 
 }
