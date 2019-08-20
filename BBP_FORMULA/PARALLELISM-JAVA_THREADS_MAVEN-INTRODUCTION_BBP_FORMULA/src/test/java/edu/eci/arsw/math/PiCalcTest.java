@@ -57,8 +57,8 @@ public class PiCalcTest {
 	    	byte [] hilo2 = PiDigits.getDigits(1, 10000, 2);
 	    	byte [] hilo3 = PiDigits.getDigits(1, 10000, 3);
 	    	assertEquals(primero,hilo1);
-	    	assertEqualse(primero,hilo2);
-	    	assertEqualse(primero,hilo3);
+	    	assertEquals(primero,hilo2);
+	    	assertEquals(primero,hilo3);
     	}catch(Exception e) {
     		e.printStackTrace();
     		assertTrue(false);
