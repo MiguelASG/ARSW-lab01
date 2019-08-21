@@ -43,7 +43,7 @@ Parte 1
 
 1. https://raw.githubusercontent.com/MiguelASG/ARSW-lab01/master/Pictures/2.1.PNG
 2. https://raw.githubusercontent.com/MiguelASG/ARSW-lab01/master/Pictures/2.1.2.PNG
-3. 
+3. https://raw.githubusercontent.com/MiguelASG/ARSW-lab01/master/Pictures/2.1.3.PNG
 
 
 
