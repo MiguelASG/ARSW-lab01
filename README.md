@@ -5,9 +5,12 @@ Parte 1 - Introduccion a hilos en Java
 1. https://raw.githubusercontent.com/MiguelASG/ARSW-lab01/master/Pictures/1.1.PNG
 
 2. 
-a)  https://raw.githubusercontent.com/MiguelASG/ARSW-lab01/master/Pictures/1.1.1.PNG
-b)  https://raw.githubusercontent.com/MiguelASG/ARSW-lab01/master/Pictures/1.1.2.PNG
+a)  https://raw.githubusercontent.com/MiguelASG/ARSW-lab01/master/Pictures/1.1.1.png
+
+b)  https://raw.githubusercontent.com/MiguelASG/ARSW-lab01/master/Pictures/1.1.2.png
+
 c)  https://raw.githubusercontent.com/MiguelASG/ARSW-lab01/master/Pictures/1.1.3.PNG
+
     la diferecia central entre el start() y el run() es que el start() inicia el hilo y corre el metodo run(), en cambio el run() solo       ejecuta ese metodo como cualquier otro metodo secuencial.  
 
 
