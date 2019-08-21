@@ -33,10 +33,6 @@ Parte 3 - Performance Evalation
 5. https://raw.githubusercontent.com/MiguelASG/ARSW-lab01/master/Pictures/1.3.5.PNG
 
 
-1. 
-2.
-3.
-
 # DOGS RACE CASE
 
 Parte 1
