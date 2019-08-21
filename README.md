@@ -45,10 +45,5 @@ Parte 1
 2. https://raw.githubusercontent.com/MiguelASG/ARSW-lab01/master/Pictures/2.1.2.PNG
 3. https://raw.githubusercontent.com/MiguelASG/ARSW-lab01/master/Pictures/2.1.3.PNG
 
-Parte 3
-1.
-2.
-3.
-4.
 
 
