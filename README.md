@@ -24,8 +24,10 @@ Parte 3 - Performance Evalation
 
 1. https://raw.githubusercontent.com/MiguelASG/ARSW-lab01/master/Pictures/1.3.1.PNG
     https://raw.githubusercontent.com/MiguelASG/ARSW-lab01/master/Pictures/1.3.1b.PNG
-2. (insertar imagen)
-3. (insertar imagen)
+2. https://raw.githubusercontent.com/MiguelASG/ARSW-lab01/master/Pictures/1.3.2.PNG
+    https://raw.githubusercontent.com/MiguelASG/ARSW-lab01/master/Pictures/1.3.2b.PNG
+3. https://raw.githubusercontent.com/MiguelASG/ARSW-lab01/master/Pictures/1.3.3.PNG
+    https://raw.githubusercontent.com/MiguelASG/ARSW-lab01/master/Pictures/1.3.3b.PNG
 4. https://raw.githubusercontent.com/MiguelASG/ARSW-lab01/master/Pictures/1.3.4.PNG
     https://raw.githubusercontent.com/MiguelASG/ARSW-lab01/master/Pictures/1.3.4b.PNG
 5. https://raw.githubusercontent.com/MiguelASG/ARSW-lab01/master/Pictures/1.3.5.PNG
@@ -39,8 +41,8 @@ Parte 3 - Performance Evalation
 
 Parte 1
 
-1. (insertar imagen)
-2. (insertar imagen)
+1. https://raw.githubusercontent.com/MiguelASG/ARSW-lab01/master/Pictures/2.1.PNG
+2. https://raw.githubusercontent.com/MiguelASG/ARSW-lab01/master/Pictures/2.1.2.PNG
 3. 
 
 
