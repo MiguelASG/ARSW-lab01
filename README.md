@@ -2,7 +2,7 @@
 
 # BBP_FORMULA
 Parte 1 - Introduccion a hilos en Java
-1. (insertar imagen) https://raw.githubusercontent.com/MiguelASG/ARSW-lab01/tree/master/Pictures/1.1.PNG
+1. (insertar imagen) https://raw.githubusercontent.com/MiguelASG/ARSW-lab01/master/Pictures/1.1.PNG
 
 2. 
 a)(insertar imagen)
