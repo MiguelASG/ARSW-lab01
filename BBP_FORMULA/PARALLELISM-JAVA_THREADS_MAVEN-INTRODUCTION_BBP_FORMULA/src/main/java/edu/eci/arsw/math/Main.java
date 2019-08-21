@@ -13,7 +13,7 @@ public class Main {
 
     public static void main(String a[]) throws InterruptedException {
         //System.out.println(bytesToHex(PiDigits.getDigits(0, 10)));
-        System.out.println(bytesToHex(PiDigits.getDigits(0, 1000000, 500)));
+        System.out.println(bytesToHex(PiDigits.getDigits(0, 1000000, 2*Runtime.getRuntime().availableProcessors())));
         //System.out.println(bytesToHex(PiDigits.getDigits(1, 1000000)));
     }
 
