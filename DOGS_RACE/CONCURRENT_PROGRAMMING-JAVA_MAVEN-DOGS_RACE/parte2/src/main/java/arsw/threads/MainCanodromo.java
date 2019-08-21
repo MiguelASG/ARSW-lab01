@@ -39,6 +39,14 @@ public class MainCanodromo {
 
                                 }
                                
+                                for (int i = 0; i<galgos.length; i++) {
+                                	try {
+										galgos[i].join();
+									} catch (InterruptedException e) {
+										// TODO Auto-generated catch block
+										e.printStackTrace();
+									}
+                                }
 				can.winnerDialog(reg.getGanador(),reg.getUltimaPosicionAlcanzada() - 1); 
                                 System.out.println("El ganador fue:" + reg.getGanador());
                             }
@@ -53,6 +61,9 @@ public class MainCanodromo {
                     @Override
                     public void actionPerformed(ActionEvent e) {
                         System.out.println("Carrera pausada!");
+                        for(int i=0; i<galgos.length; i++) {
+                        	galgos[i].suspend();
+                        }
                     }
                 }
         );
@@ -62,6 +73,9 @@ public class MainCanodromo {
                     @Override
                     public void actionPerformed(ActionEvent e) {
                         System.out.println("Carrera reanudada!");
+                        for(int i=0; i<galgos.length; i++) {
+                        	galgos[i].resume();
+                        }
                     }
                 }
         );
